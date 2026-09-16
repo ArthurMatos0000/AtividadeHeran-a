@@ -18,6 +18,13 @@ class Aluno extends Pessoa {
     public $situacao;
     public $responsavel;
     public $dataMatricula;
+    public $email;
+    public $telefone;
+    public $cidade;
+    public $estado;
+    public $cpf;
+    public $endereco;
+    public $statusPessoa;
 
 
     public function matricularEmTurma($turma) {

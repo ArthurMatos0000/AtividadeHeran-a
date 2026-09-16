@@ -1,5 +1,8 @@
 Sor não vou destruir meu codigo removendo e colocando professor, mas aqui estão os pedidos faltantes.
 
+
+ATT 1.
+
 // $turmaBetinhas->removerAluno($aluno4); //
 
 // $turmaBetinhas->removerProfessor(); //
