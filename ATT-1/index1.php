@@ -2,10 +2,10 @@
 
 // Incluindo os arquivos das classes
 
-include_once './ATT-1/Pessoa.php';
-include_once './ATT-1/Aluno.php';
-include_once './ATT-1/Professor.php';
-include_once './ATT-1/Turma.php';
+include_once 'pessoa.php';
+include_once 'aluno.php';
+include_once 'professor.php';
+include_once 'turma.php';
 
 
 // Criando a turma Betinhas
