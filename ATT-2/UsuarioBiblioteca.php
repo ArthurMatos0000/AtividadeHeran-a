@@ -76,14 +76,14 @@ echo "Limite de empréstimos atingido.<br>";
 
     public function exibirDadosUsuario()
     {
-        echo "Nome: " . $this->nome . "<br>";
-        echo "Matrícula: " . $this->matricula . "<br>";
-        echo "E-mail: " . $this->email . "<br>";
-        echo "Telefone: " . $this->telefone . "<br>";
-        echo "Tipo de usuário: " . $this->tipoUsuario . "<br>";
-        echo "Limite de empréstimos: " . $this->limiteEmprestimos . "<br>";
-        echo "Quantidade de empréstimos: " . $this->quantidadeEmprestimos . "<br>";
-        echo "Data de cadastro: " . $this->dataCadastro . "<br>";
-        echo "Status do usuário: " . $this->statusUsuario . "<br>";
+echo "<b>Nome: </b>" . $this->nome . "<br>";
+echo "<b>Matrícula: </b>" . $this->matricula . "<br>";
+echo "<b>E-mail: </b>" . $this->email . "<br>";
+echo "<b>Telefone: </b>" . $this->telefone . "<br>";
+echo "<b>Tipo de usuário: </b>" . $this->tipoUsuario . "<br>";
+echo "<b>Limite de empréstimos: </b>" . $this->limiteEmprestimos . "<br>";
+echo "<b>Quantidade de empréstimos: </b>" . $this->quantidadeEmprestimos . "<br>";
+echo "<b>Data de cadastro: </b>" . $this->dataCadastro . "<br>";
+echo "<b>Status do usuário: </b>" . $this->statusUsuario . "<br>";
     }
 }

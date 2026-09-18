@@ -43,15 +43,15 @@ class Produto
 
     public function exibirDadosProduto()
     {
-        echo "Nome: " . $this->nome . "<br>";
-        echo "Código: " . $this->codigo . "<br>";
-        echo "Preço: R$ " . $this->preco . "<br>";
-        echo "Marca: " . $this->marca . "<br>";
-        echo "Categoria: " . $this->categoria . "<br>";
-        echo "Descrição: " . $this->descricao . "<br>";
-        echo "Quantidade em estoque: " . $this->quantidadeEstoque . "<br>";
-        echo "Peso: " . $this->peso . "<br>";
-        echo "Fornecedor: " . $this->fornecedor . "<br>";
-        echo "Status do produto: " . $this->statusProduto . "<br>";
+echo "<b>Nome: </b>" . $this->nome . "<br>";
+echo "<b>Código: </b>" . $this->codigo . "<br>";
+echo "<b>Preço: </b>R$ " . $this->preco . "<br>";
+echo "<b>Marca: </b>" . $this->marca . "<br>";
+echo "<b>Categoria: </b>" . $this->categoria . "<br>";
+echo "<b>Descrição: </b>" . $this->descricao . "<br>";
+echo "<b>Quantidade em estoque: </b>" . $this->quantidadeEstoque . "<br>";
+echo "<b>Peso: </b>" . $this->peso . "<br>";
+echo "<b>Fornecedor: </b>" . $this->fornecedor . "<br>";
+echo "<b>Status do produto: </b>" . $this->statusProduto . "<br>";
     }
 }

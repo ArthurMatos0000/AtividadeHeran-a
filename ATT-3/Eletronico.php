@@ -48,16 +48,16 @@ class Eletronico extends Produto
     {
         $this->exibirDadosProduto();
 
-        echo "Modelo: " . $this->modelo . "<br>";
-        echo "Voltagem: " . $this->voltagem . "<br>";
-        echo "Garantia: " . $this->garantiaMeses . " meses<br>";
-        echo "Número de série: " . $this->numeroSerie . "<br>";
-        echo "Cor: " . $this->cor . "<br>";
-        echo "Capacidade: " . $this->capacidade . "<br>";
-        echo "Sistema operacional: " . $this->sistemaOperacional . "<br>";
-        echo "Consumo de energia: " . $this->consumoEnergia . "<br>";
-        echo "Acessórios inclusos: " . $this->acessoriosInclusos . "<br>";
-        echo "Assistência técnica: " . $this->assistenciaTecnica . "<br>";
-        echo "Garantia: " . $this->verificarGarantia() . "<br>";
+echo "<b>Modelo: </b>" . $this->modelo . "<br>";
+echo "<b>Voltagem: </b>" . $this->voltagem . "<br>";
+echo "<b>Garantia: </b>" . $this->garantiaMeses . " meses<br>";
+echo "<b>Número de série: </b>" . $this->numeroSerie . "<br>";
+echo "<b>Cor: </b>" . $this->cor . "<br>";
+echo "<b>Capacidade: </b>" . $this->capacidade . "<br>";
+echo "<b>Sistema operacional: </b>" . $this->sistemaOperacional . "<br>";
+echo "<b>Consumo de energia: </b>" . $this->consumoEnergia . "<br>";
+echo "<b>Acessórios inclusos: </b>" . $this->acessoriosInclusos . "<br>";
+echo "<b>Assistência técnica: </b>" . $this->assistenciaTecnica . "<br>";
+echo "<b>Garantia: </b>" . $this->verificarGarantia() . "<br>";
     }
 }

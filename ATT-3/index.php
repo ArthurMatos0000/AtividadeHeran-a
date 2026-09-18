@@ -19,7 +19,7 @@ $livro->categoria = "Escolar";
 $livro->descricao = "Manga escolar.";
 $livro->quantidadeEstoque = 100;
 $livro->peso = "500g";
-$livro->fornecedor = "Editora Exemplo";
+$livro->fornecedor = "Rowd 2";
 $livro->statusProduto = "Ativo";
 
 $livro->definirAutor("Arthur.M");

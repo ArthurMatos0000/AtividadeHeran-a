@@ -50,15 +50,15 @@ class Livro extends ItemBiblioteca
     {
         $this->exibirDadosItem();
 
-        echo "Autor: " . $this->autor . "<br>";
-        echo "ISBN: " . $this->ISBN . "<br>";
-        echo "Gênero: " . $this->genero . "<br>";
-        echo "Número de capítulos: " . $this->numeroCapitulos . "<br>";
-        echo "Edição: " . $this->edicao . "<br>";
-        echo "Tipo de capa: " . $this->tipoCapa . "<br>";
-        echo "Resumo: " . $this->resumo . "<br>";
-        echo "Classificação indicativa: " . $this->classificacaoIndicativa . "<br>";
-        echo "Quantidade de exemplares: " . $this->quantidadeExemplares . "<br>";
-        echo "Exemplares disponíveis: " . $this->exemplaresDisponiveis . "<br>";
+echo "<b>Autor: </b>" . $this->autor . "<br>";
+echo "<b>ISBN: </b>" . $this->ISBN . "<br>";
+echo "<b>Gênero: </b>" . $this->genero . "<br>";
+echo "<b>Número de capítulos: </b>" . $this->numeroCapitulos . "<br>";
+echo "<b>Edição: </b>" . $this->edicao . "<br>";
+echo "<b>Tipo de capa: </b>" . $this->tipoCapa . "<br>";
+echo "<b>Resumo: </b>" . $this->resumo . "<br>";
+echo "<b>Classificação indicativa: </b>" . $this->classificacaoIndicativa . "<br>";
+echo "<b>Quantidade de exemplares: </b>" . $this->quantidadeExemplares . "<br>";
+echo "<b>Exemplares disponíveis: </b>" . $this->exemplaresDisponiveis . "<br>";
     }
 }

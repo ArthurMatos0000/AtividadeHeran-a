@@ -65,8 +65,8 @@ class CarrinhoCompra
     {
         echo "<h2>Carrinho de Compras</h2>";
 
-        echo "Cliente: " . $this->cliente . "<br>";
-        echo "Quantidade de itens: " . $this->quantidadeItens . "<br>";
+        echo "<b>Cliente: </b>" . $this->cliente . "<br>";
+        echo "<b>Quantidade de itens: </b>" . $this->quantidadeItens . "<br>";
 
         echo "<h3>Produtos:</h3>";
 
@@ -78,6 +78,6 @@ class CarrinhoCompra
 
         echo "<br>";
 
-        echo "Valor total: R$ " . $this->calcularTotal() . "<br>";
+        echo "<b>Valor total: R$ </b> " . $this->calcularTotal() . "<br>";
     }
 }

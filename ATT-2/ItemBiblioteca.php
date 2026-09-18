@@ -45,15 +45,15 @@ class ItemBiblioteca
 
     public function exibirDadosItem()
     {
-        echo "Título: " . $this->titulo . "<br>";
-        echo "Código: " . $this->codigo . "<br>";
-        echo "Ano de publicação: " . $this->anoPublicacao . "<br>";
-        echo "Editora: " . $this->editora . "<br>";
-        echo "Categoria: " . $this->categoria . "<br>";
-        echo "Quantidade de páginas: " . $this->quantidadePaginas . "<br>";
-        echo "Idioma: " . $this->idioma . "<br>";
-        echo "Status: " . $this->status . "<br>";
-        echo "Localização: " . $this->localizacaoBiblioteca . "<br>";
-        echo "Data de cadastro: " . $this->dataCadastro . "<br>";
-    }
+echo "<b>Título: </b>" . $this->titulo . "<br>";
+echo "<b>Código: </b>" . $this->codigo . "<br>";
+echo "<b>Ano de publicação: </b>" . $this->anoPublicacao . "<br>";
+echo "<b>Editora: </b>" . $this->editora . "<br>";
+echo "<b>Categoria: </b>" . $this->categoria . "<br>";
+echo "<b>Quantidade de páginas: </b>" . $this->quantidadePaginas . "<br>";
+echo "<b>Idioma: </b>" . $this->idioma . "<br>";
+echo "<b>Status: </b>" . $this->status . "<br>";
+echo "<b>Localização: </b>" . $this->localizacaoBiblioteca . "<br>";
+echo "<b>Data de cadastro: </b>" . $this->dataCadastro . "<br>";
+}
 }

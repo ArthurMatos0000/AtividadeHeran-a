@@ -44,15 +44,15 @@ class LivroProduto extends Produto
     {
         $this->exibirDadosProduto();
 
-        echo "Autor: " . $this->autor . "<br>";
-        echo "Editora: " . $this->editora . "<br>";
-        echo "ISBN: " . $this->ISBN . "<br>";
-        echo "Gênero: " . $this->genero . "<br>";
-        echo "Número de páginas: " . $this->numeroPaginas . "<br>";
-        echo "Ano de lançamento: " . $this->anoLancamento . "<br>";
-        echo "Idioma: " . $this->idioma . "<br>";
-        echo "Tipo de capa: " . $this->tipoCapa . "<br>";
-        echo "Faixa etária: " . $this->faixaEtaria . "<br>";
-        echo "Sinopse: " . $this->sinopse . "<br>";
+echo "<b>Autor: </b>" . $this->autor . "<br>";
+echo "<b>Editora: </b>" . $this->editora . "<br>";
+echo "<b>ISBN: </b>" . $this->ISBN . "<br>";
+echo "<b>Gênero: </b>" . $this->genero . "<br>";
+echo "<b>Número de páginas: </b>" . $this->numeroPaginas . "<br>";
+echo "<b>Ano de lançamento: </b>" . $this->anoLancamento . "<br>";
+echo "<b>Idioma: </b>" . $this->idioma . "<br>";
+echo "<b>Tipo de capa: </b>" . $this->tipoCapa . "<br>";
+echo "<b>Faixa etária: </b>" . $this->faixaEtaria . "<br>";
+echo "<b>Sinopse: </b>" . $this->sinopse . "<br>";
     }
 }

@@ -43,16 +43,15 @@ class Revista extends ItemBiblioteca
     public function exibirDadosRevista()
     {
         $this->exibirDadosItem();
-
-        echo "Número da edição: " . $this->numeroEdicao . "<br>";
-        echo "Mês de publicação: " . $this->mesPublicacao . "<br>";
-        echo "Tema principal: " . $this->temaPrincipal . "<br>";
-        echo "Periodicidade: " . $this->periodicidade . "<br>";
-        echo "Jornalista responsável: " . $this->jornalistaResponsavel . "<br>";
-        echo "Seção principal: " . $this->secaoPrincipal . "<br>";
-        echo "Código de barras: " . $this->codigoBarras . "<br>";
-        echo "Público-alvo: " . $this->publicoAlvo . "<br>";
-        echo "Quantidade de matérias: " . $this->quantidadeMaterias . "<br>";
-        echo "Patrocinador: " . $this->patrocinador . "<br>";
+echo "<b>Número da edição: </b>" . $this->numeroEdicao . "<br>";
+echo "<b>Mês de publicação: </b>" . $this->mesPublicacao . "<br>";
+echo "<b>Tema principal: </b>" . $this->temaPrincipal . "<br>";
+echo "<b>Periodicidade: </b>" . $this->periodicidade . "<br>";
+echo "<b>Jornalista responsável: </b>" . $this->jornalistaResponsavel . "<br>";
+echo "<b>Seção principal: </b>" . $this->secaoPrincipal . "<br>";
+echo "<b>Código de barras: </b>" . $this->codigoBarras . "<br>";
+echo "<b>Público-alvo: </b>" . $this->publicoAlvo . "<br>";
+echo "<b>Quantidade de matérias: </b>" . $this->quantidadeMaterias . "<br>";
+echo "<b>Patrocinador: </b>" . $this->patrocinador . "<br>";
     }
 }
