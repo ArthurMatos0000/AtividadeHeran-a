@@ -44,16 +44,16 @@ class Professor extends Pessoa {
 
         $this->exibirDadosPessoa();
 
-        echo "Registro: " . $this->registroProfessor . "<br>";
-        echo "Disciplina: " . $this->disciplina . "<br>";
-        echo "Carga horária: " . $this->cargaHoraria . "<br>";
-        echo "Salário: R$ " . $this->salario . "<br>";
-        echo "Formação: " . $this->formacao . "<br>";
-        echo "Especialidade: " . $this->especialidade . "<br>";
-        echo "Quantidade de turmas: " . count($this->turmasAtendidas) . "<br>";
-        echo "Horário de aula: " . $this->horarioAula . "<br>";
-        echo "Ano de contratação: " . $this->anoContratacao . "<br>";
-        echo "Status do professor: " . $this->statusProfessor . "<br>";
+echo "<b>Registro: </b>" . $this->registroProfessor . "<br>";
+echo "<b>Disciplina: </b>" . $this->disciplina . "<br>";
+echo "<b>Carga horária: </b>" . $this->cargaHoraria . "<br>";
+echo "<b>Salário: </b>R$ " . $this->salario . "<br>";
+echo "<b>Formação: </b>" . $this->formacao . "<br>";
+echo "<b>Especialidade: </b>" . $this->especialidade . "<br>";
+echo "<b>Quantidade de turmas: </b>" . count($this->turmasAtendidas) . "<br>";
+echo "<b>Horário de aula: </b>" . $this->horarioAula . "<br>";
+echo "<b>Ano de contratação: </b>" . $this->anoContratacao . "<br>";
+echo "<b>Status do professor: </b>" . $this->statusProfessor . "<br>";
     }
 }
 

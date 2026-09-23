@@ -84,17 +84,16 @@ class Aluno extends Pessoa {
 
         $this->exibirDadosPessoa();
 
-        echo "Matrícula: " . $this->matricula . "<br>";
-        echo "Série: " . $this->serie . "<br>";
-        echo "Turma: " . $this->turmaAtual->nomeTurma . "<br>";
-        echo "Nota 1: " . $this->nota1 . "<br>";
-        echo "Nota 2: " . $this->nota2 . "<br>";
-        echo "Nota 3: " . $this->nota3 . "<br>";
-        echo "Média final: " . $this->mediaFinal . "<br>";
-        echo "Situação: " . $this->situacao . "<br>";
-        echo "Responsável: " . $this->responsavel . "<br>";
-        echo "Data da matrícula: " . $this->dataMatricula . "<br>";
-
+echo "<b>Matrícula: </b>" . $this->matricula . "<br>";
+echo "<b>Série: </b>" . $this->serie . "<br>";
+echo "<b>Turma: </b>" . $this->turmaAtual->nomeTurma . "<br>";
+echo "<b>Nota 1: </b>" . $this->nota1 . "<br>";
+echo "<b>Nota 2: </b>" . $this->nota2 . "<br>";
+echo "<b>Nota 3: </b>" . $this->nota3 . "<br>";
+echo "<b>Média final: </b>" . $this->mediaFinal . "<br>";
+echo "<b>Situação: </b>" . $this->situacao . "<br>";
+echo "<b>Responsável: </b>" . $this->responsavel . "<br>";
+echo "<b>Data da matrícula: </b>" . $this->dataMatricula . "<br>";
     }
 
 }

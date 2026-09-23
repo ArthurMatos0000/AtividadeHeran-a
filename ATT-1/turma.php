@@ -59,10 +59,10 @@ class Turma {
 
         echo "<h2>Turma " . $this->nomeTurma . "</h2>";
 
-        echo "Código: " . $this->codigoTurma . "<br>";
-        echo "Ano letivo: " . $this->anoLetivo . "<br>";
-        echo "Sala: " . $this->sala . "<br>";
-        echo "Turno: " . $this->turno . "<br>";
+    echo "<b>Código: </b>" . $this->codigoTurma . "<br>";
+echo "<b>Ano letivo: </b>" . $this->anoLetivo . "<br>";
+echo "<b>Sala: </b>" . $this->sala . "<br>";
+echo "<b>Turno: </b>" . $this->turno . "<br>";
 
         if ($this->professorResponsavel != null) {
             echo "Professor: " . $this->professorResponsavel->nome . "<br>";
@@ -70,10 +70,10 @@ class Turma {
             echo "Professor: Nenhum professor responsável<br>";
         }
 
-        echo "Limite de alunos: " . $this->limiteAlunos . "<br>";
-        echo "Curso: " . $this->curso . "<br>";
-        echo "Status da turma: " . $this->statusTurma . "<br>";
-        echo "Quantidade de alunos: " . $this->contarAlunos() . "<br>";
+echo "<b>Limite de alunos: </b>" . $this->limiteAlunos . "<br>";
+echo "<b>Curso: </b>" . $this->curso . "<br>";
+echo "<b>Status da turma: </b>" . $this->statusTurma . "<br>";
+echo "<b>Quantidade de alunos: </b>" . $this->contarAlunos() . "<br>";
 
         echo "<h3>Alunos:</h3>";
 

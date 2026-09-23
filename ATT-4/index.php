@@ -20,7 +20,7 @@ $instrutor->estado = "CE";
 $instrutor->dataNascimento = "10/05/1991";
 $instrutor->usuarioAtivo = "Sim";
 
-$instrutor->codigoInstrutor = "INS001";
+$instrutor->codigoInstrutor = "Instrut";
 $instrutor->areaAtuacao[] = "Programação";
 $instrutor->formacao = "Análise e Desenvolvimento de Sistemas";
 $instrutor->avaliacaoMedia = 4.8;
@@ -60,7 +60,7 @@ $aluno3->statusAluno = "Ativo";
 $curso = new CursoOnline();
 
 $curso->titulo = "Introdução à resenha";
-$curso->codigoCurso = "CUR001";
+$curso->codigoCurso = "Curso1";
 $curso->descricao = "Curso básico de resenha.";
 $curso->cargaHoraria = "40 horas";
 $curso->nivel = "Iniciante";

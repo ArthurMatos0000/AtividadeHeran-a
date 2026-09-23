@@ -12,7 +12,7 @@ $prato = new Prato();
 
 $prato->cadastrarProduto("Hambúrguer Artesanal", 25.00);
 
-$prato->codigo = "P001";
+$prato->codigo = "Comer1";
 $prato->descricao = "Hambúrguer artesanal com queijo.";
 $prato->categoria = "Lanche";
 $prato->tempoPreparo = "20 minutos";
@@ -42,7 +42,7 @@ $bebida = new Bebida();
 
 $bebida->cadastrarProduto("Refrigerante", 8.00);
 
-$bebida->codigo = "B001";
+$bebida->codigo = "Beber1";
 $bebida->descricao = "Refrigerante gelado.";
 $bebida->categoria = "Bebida";
 $bebida->tempoPreparo = "2 minutos";

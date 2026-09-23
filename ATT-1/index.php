@@ -13,7 +13,7 @@ include_once 'turma.php';
 $turmaBetinhas = new Turma();
 
 $turmaBetinhas->nomeTurma = "Betinhas";
-$turmaBetinhas->codigoTurma = "BET001";
+$turmaBetinhas->codigoTurma = "Betas";
 $turmaBetinhas->anoLetivo = 2026;
 $turmaBetinhas->sala = "Sala 10";
 $turmaBetinhas->turno = "Manhã";

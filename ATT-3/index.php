@@ -40,7 +40,7 @@ $livro->atualizarSinopse("Terras dos brainrots.");
 
 $eletronico = new Eletronico();
 
-$eletronico->cadastrarProduto("Notebook", "ELE001", 3000);
+$eletronico->cadastrarProduto("Notebook", "Ele1", 3000);
 
 $eletronico->marca = "Acer";
 $eletronico->categoria = "Informática";
@@ -75,7 +75,7 @@ $livro->aplicarDesconto(10);
 
 $carrinho = new CarrinhoCompra();
 
-$carrinho->codigoCarrinho = "CAR001";
+$carrinho->codigoCarrinho = "Car1";
 $carrinho->cliente = "Mauricio";
 $carrinho->statusCarrinho = "Aberto";
 $carrinho->dataCriacao = "16/09/2026";

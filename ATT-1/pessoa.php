@@ -53,16 +53,16 @@ class Pessoa {
 
     public function exibirDadosPessoa() {
 
-        echo "Nome: " . $this->nome . "<br>";
-        echo "Idade: " . $this->idade . "<br>";
-        echo "CPF: " . $this->CPF . "<br>";
-        echo "E-mail: " . $this->email . "<br>";
-        echo "Telefone: " . $this->telefone . "<br>";
-        echo "Endereço: " . $this->endereco . "<br>";
-        echo "Cidade: " . $this->cidade . "<br>";
-        echo "Estado: " . $this->estado . "<br>";
-        echo "Data de nascimento: " . $this->dataNascimento . "<br>";
-        echo "Status: " . $this->statusPessoa . "<br>";
+echo "<b>Nome: </b>" . $this->nome . "<br>";
+echo "<b>Idade: </b>" . $this->idade . "<br>";
+echo "<b>CPF: </b>" . $this->CPF . "<br>";
+echo "<b>E-mail: </b>" . $this->email . "<br>";
+echo "<b>Telefone: </b>" . $this->telefone . "<br>";
+echo "<b>Endereço: </b>" . $this->endereco . "<br>";
+echo "<b>Cidade: </b>" . $this->cidade . "<br>";
+echo "<b>Estado: </b>" . $this->estado . "<br>";
+echo "<b>Data de nascimento: </b>" . $this->dataNascimento . "<br>";
+echo "<b>Status: </b>" . $this->statusPessoa . "<br>";
 
     }
 

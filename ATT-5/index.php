@@ -13,7 +13,7 @@ $paciente = new Paciente();
 $paciente->cadastrarPessoa("Lucas Amaro", "123.456.789-00");
 
 $paciente->idade = 25;
-$paciente->email = "Amaro@email.com";
+$paciente->email = "amaro@email.com";
 $paciente->telefone = "99999-1111";
 $paciente->endereco = "Rua Central";
 $paciente->cidade = "Mathias velho";
